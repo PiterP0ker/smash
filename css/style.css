@@ -1,0 +1,141 @@
+body {
+	background-color: #F5F4EF;
+	color: #000305;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: "Trebuchet MS", Trebuchet, sans-serif;
+	line-height: 1.4;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-weight: 400;
+	color: #c74350;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+p {
+	margin: 0 0 20px 0;
+}
+
+a {
+	color: #C74350;
+}
+
+a:hover {
+	background-color: #C74350;
+	color: #fff;
+	text-decoration: none;
+}
+
+.ba-container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 40px 20px;
+}
+
+.ba-section {
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+
+.ba-logo {
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+.ba-logo:hover {
+	background-color: transparent;
+	color: #C74350;
+}
+
+.ba-logo span {
+	display: block;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.ba-featured-title a{
+	color: #000;
+	text-decoration: none;
+}
+
+.ba-featured-title a:hover {
+	color: #fff;
+}
+
+.ba-post-title a {
+	text-decoration: none;
+}
+
+.ba-blogroll-list {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 40px;
+	max-width: 200px;
+}
+
+.ba-blogroll-list li {
+	border-bottom: 1px solid #fff;
+}
+
+.ba-blogroll-list a {
+	color: #000;
+	text-decoration: none;
+	display: block;
+	padding: 6px 3px;
+	border-bottom: 1px solid #f4e3e3;
+
+}
+
+.ba-blogroll-list a:hover {
+	color:#fff;
+}
+
+.ba-henty > :last-child {
+	margin-bottom: 0;
+}
+
+.ba-henty + .ba-henty {
+	border-top: 1px solid #EEEEEE;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+.ba-copyright {
+	text-align: right;
+}
+
+.ba-row {
+	display: flex;
+}
+
+.ba-row > div:first-child {
+	width: 30%;
+}
+
+.ba-row p {
+	margin-bottom: 0;
+}
